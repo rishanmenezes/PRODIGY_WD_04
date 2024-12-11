@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #f8f9fa, #e0e0e0); /* Subtle gradient */
+    background-attachment: fixed; /* Ensures smooth scrolling */
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #FFD700;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.intro {
+    max-width: 600px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.intro h2 {
+    font-size: 24px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.intro p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* About Me Section */
+.about {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #444;
+}
+
+.about p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.about ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.about ul li {
+    list-style-type: disc;
+    color: #555;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.projects h2 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact a.cta-button {
+    font-size: 18px;
+}
